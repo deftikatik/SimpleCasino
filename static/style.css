@@ -1,0 +1,86 @@
+body {
+    background-color: #1b1b1b;
+    color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    border: 2px solid #ffd700;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #222, #1b1b1b);
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+}
+
+h1 {
+    color: #ffd700;
+    font-size: 2em;
+}
+
+a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ffd700;
+    background-color: #333;
+    color: #ffd700;
+    font-size: 1em;
+    box-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffd700;
+    color: #1b1b1b;
+    border: 1px solid #fff;
+}
+
+.flash {
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.win-message {
+    background-color: #28a745; /* Зеленый для выигрыша */
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    box-shadow: 0 0 10px rgba(40, 167, 69, 0.8);
+}
+
+.lose-message {
+    background-color: #dc3545; /* Красный для проигрыша */
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    box-shadow: 0 0 10px rgba(220, 53, 69, 0.8);
+}
